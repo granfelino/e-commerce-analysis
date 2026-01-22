@@ -23,12 +23,13 @@
 ### Analysis
 * The data stems from an UK retailer (information from the source, but also pretty obvious from analysis, since the revenue comes mainly from UK).
 * This dataset spans one year of invoice data: 2010-12 to 2011-12.
-
 * On average there are about 26 different products in an invoice.
 
+-----
 ![Quantile distribution of revenue](/plots/quantile-distribution.png)
 * The majority of the revenue comes from invoices of very pricey orders (quantile 80-100% brings in the majority of the revenue).
 
+-----
 ![Monthly revenue](/plots/monthly_revenue.png)
 ![Month-over-month revenue changes](/plots/mom-revenue.png)
 * The revenue levels differs from month to month, usually very much (changes of order 20-57% over month).
@@ -36,6 +37,7 @@
     * December 2011 -> big drop in revenue from the previous month. Does the retailer not offer any Christmas presents ideas?
     * March, May, September and November 2011 -> gained a lot of revenue in comparison to their previous months.
 
+-----
 ![Revenue per country (no UK)](/plots/rev-by-country.png)
 * Apart from UK where the store is based the following countries generate a lot of revenue for the retailer:
     1. Netherlands
@@ -46,6 +48,7 @@
     6. Spain
     7. Switzerland
 
+-----
 ![Revenue per month, per country (no UK)](/plots/month-country-top.png)
 * Among the top 3 countries by revenue, by month, outside of UK, these were present:
     * Germany
