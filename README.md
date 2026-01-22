@@ -26,7 +26,7 @@
 
 * On average there are about 26 different products in an invoice.
 
-![Quantile distribution of revenue](plots/quantile_distribution.png)
+![Quantile distribution of revenue](/plots/quantile-distribution.png)
 * The majority of the revenue comes from invoices of very pricey orders (quantile 80-100% brings in the majority of the revenue).
 
 * The revenue levels differs from month to month, usually very much (changes of order 20-57% over month).
